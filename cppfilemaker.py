@@ -1,3 +1,16 @@
+# 使用report_cpp.template文件批量生成名称连续的cpp模板文件(此处为我所用的刷OJ模板)
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+'''
+@File    :   cppfilemaker.py
+@Time    :   2019/10/19 23:49:51
+@Author  :   Zhao Zhitao 
+@Contact :   2418660459@qq.com
+@software:   VS Code
+@License :   (C)Copyright 2017-2018, Liugroup-NLPR-CASIA
+@Desc    :   None
+'''
+
 from string import Template
  
 class ReportCppGenerator(object):
