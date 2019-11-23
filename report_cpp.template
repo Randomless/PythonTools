@@ -1,18 +1,23 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<algorithm>
+#include<string>
+#include<iostream>
+
 /*
   ${CLASSNAME}
 */
 
+using namespace std;
  
 int main(){
     int n;
-    scanf("%d",&n);
-    
-    int a;
-    while(scanf("%d",&a)!=EOF){
-        
+    int N[];
+
+    while(scanf("%d",&n)!=EOF){
+      
+      
+      
     }
 
-    printf("%d",);
     return 0;
 }
