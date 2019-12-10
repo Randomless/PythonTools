@@ -1,7 +1,7 @@
 import  pandas  as pd
 
 
-df=pd.read_excel('./123.xlsx')#这个会直接默认读取到这个Excel的第一个表单
+df=pd.read_csv('./456.csv')#这个会直接默认读取到这个Excel的第一个表单
 data=df.head()#默认读取前5行的数据
 #data=df.values#获取所有的数据，注意这里不能用head()方法哦~
 print("获取到所有的值:\n{0}".format(data))#格式化输出
@@ -9,7 +9,7 @@ print("获取到所有的值:\n{0}".format(data))#格式化输出
 df.fillna(0,inplace=True)
 #print(df)
 
-df.to_excel('ans.xlsx')
+df.to_csv('ans2.csv')
 
 print('changeOK!')
 # # 复制原文件，因为原文件只能读取，不能写入数据，所以要复制得到一个可以写入数据的文件

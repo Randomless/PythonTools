@@ -50,9 +50,9 @@ class ReportCppGenerator(object):
 if __name__ == '__main__':
     
     with open('./Names.txt', 'w') as f:
-        for i in range(10,11):
-            for j in range(7,8):
-                chars=[chr(i) for i in range(65,66)]#所有大写字母
+        for i in range(13,14):
+            for j in range(2,3):
+                chars=[chr(i) for i in range(65,69)]#所有大写字母
                 for k in chars:
                     f.write("{0}-{1}-{2}".format(i,j,k))
                     f.write('\n')
