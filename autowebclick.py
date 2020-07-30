@@ -18,9 +18,9 @@ from selenium import webdriver
 import time
 
 browser = webdriver.Chrome()
-browser.get(url='http://sep.ucas.ac.cn/')
+browser.get(url='https://post.alibaba.com/product/publish.htm?itemId=1600088868417&pubAction=draft')
 browser.maximize_window()
-input_name = browser.find_element_by_id('userName').send_keys('2418660459@qq.com')
+input_name = browser.find_element_by_xpath('//*[@id="struct-p-191284004"]/div[2]/div[1]/span/input').send_keys('pyth')
 input_password = browser.find_element_by_id('pwd').send_keys('zzt305603147')
 input_login=browser.find_element_by_id('sb').click()
 
